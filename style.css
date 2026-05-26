@@ -195,12 +195,9 @@ blockquote{
 }
 
 #footer{
-  background: #000;
+  background: rgba(0,0,0,0.5);
   width: 100%;
   height: auto;
-  position: absolute;
-  left: 0px;
-  right: 0px;
   align-items: center;
   padding : 7% 7% 7% 20%;
 }
