@@ -163,8 +163,13 @@ h1,h4{
   margin: 10px;
   border: 2px solid #0ef;
   border-radius: 10px;
-  min-width: 250px;
-  
+  width: 250px;
+  box-shadow: 0 12px 6px #001,0 11px 5px #002;
+  transition-duration: 1s;
+}
+.service:hover{
+  width: 260px;
+  box-shadow: 0 6px 4px #001, 0 8px 3px #002;
 }
 
 #project-section{
@@ -310,7 +315,7 @@ p{
 
 @media screen and (min-width: 800px){
 	body{
-		font: 4rem Georgia, Arial,sans-serif;
+		font: 2rem Georgia, Arial,sans-serif;
 	
 	}
 	
